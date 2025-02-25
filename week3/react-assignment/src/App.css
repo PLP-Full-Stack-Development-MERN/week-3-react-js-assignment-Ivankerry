@@ -1,0 +1,21 @@
+/react-assignment/react-assignment/src/App.css
+
+.App {
+    @apply p-4 bg-gray-100 min-h-screen;
+}
+
+.header {
+    @apply text-2xl font-bold text-center mb-4;
+}
+
+.profile {
+    @apply bg-white p-4 rounded shadow-md mb-4;
+}
+
+.counter {
+    @apply flex items-center justify-center bg-white p-4 rounded shadow-md;
+}
+
+.button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600;
+}
